@@ -32,3 +32,14 @@ console.log(Object.values(user))                //    | - array type
 console.log(Object.entries(user))               //   --
 
 console.log(user.hasOwnProperty("name"))
+
+
+
+const obj={
+    name:"Lakshika",
+    age:20,
+    EmailId:"LakshikaSharma@google.com"
+}
+
+const {EmailId: email}=obj    // Object destructuring        kbhi bhi ase curly braces aate h to mtlb destructuring ki ja rhi h
+console.log(email)
